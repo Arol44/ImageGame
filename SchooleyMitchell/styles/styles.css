@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/*----Class Selectors----*/
+
+.centre{
+	text-align: center;
+}
+
+.msg_text{
+	text-align: center;
+	padding: 10px;
+	text-shadow: 1px 1px 1px rgb(206, 206, 206);
+} 
+
+.textleft{
+	float: left;
+}
+
+/*----ID Selectors----*/
+
+#container{
+	padding-top: 50px;
+	width: 400px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+}
+
+#upload{
+	width: 75px;
+}
+
+#image{
+	min-height: 300px;
+	min-width: 300px;
+}
+
+#sortable{
+	list-style-type: none;
+	margin: 10px auto;
+	padding: 0;
+}
+
+#sortable li{
+	float: left;
+	position: relative;
+}      
